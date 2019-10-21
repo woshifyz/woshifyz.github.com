@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="/static/css/reset.css" />
+        <link rel="stylesheet" href="/static/css/APlayer.min.css" />
+        <script type="text/javascript" src="/static/js/APlayer.min.js"></script>
+    </head>
+    <body>
+        <style>
+            .body {
+                font-family: 16px/1.6 "TIBch", "Classic Grotesque W01", "Avenir Next", "Segoe UI", "Helvetica Neue", Arial, "Hiragino Sans GB", "PingFang SC", "Heiti SC", "Noto Sans CJK SC", "Source Han Sans SC", "Microsoft YaHei UI", "Microsoft YaHei", sans-serif;
+                background-color: #f8f8f5;
+            }
+            .flex-container {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                justify-content: center;
+            }
+            .main {
+                max-width: 1280px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 64px;
+            }
+            .poster {
+                width: 50%;
+            }
+            .poster-img {
+                width: 100%;
+            }
+            artical {
+                margin-top: 10px;
+                width: 50%; 
+                padding-left: 20px;
+            }
+            artical > p {
+                text-indent:2em;
+                text-transform: capitalize;
+                font-size: 1.3em;
+                color: #5c5c5c;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+                line-height: 1.3em;
+            }
+            #audio_content {
+                margin-top: 20px;
+                margin-right: 10px;
+            }
+        </style>
+        <div class="flex-container main">
+            <div class="poster">
+                <img class="poster-img" src="{{ page.cover }}"/>
+            </div>
+            <artical>
+                <p>
+                    {{ content }}
+                </p>
+                <div id="audio_content"></div>
+            </artical>
+        </div>
+        <script>
+            const ap = new APlayer({
+                container: document.getElementById('audio_content'),
+                audio: [{
+                    name: "{{ page.title }} 点评",
+                    artist: "Woshifyz",
+                    url: "{{ page.audio }}",
+                    cover: "{{ page.cover }}",
+                }]
+            });
+        </script>
+    </body>
+</html>
+
