@@ -1,0 +1,11 @@
+---
+layout: book
+title: "罗马的命运"
+date: 2019-10-26 10-56-56 +0800
+cover: https://img3.doubanio.com/view/subject/l/public/s33300895.jpg
+epub_book_url: /static/public/罗马的命运.epub
+douban_url: https://book.douban.com/subject/34432189/
+categories: book
+---
+
+《罗马的命运》

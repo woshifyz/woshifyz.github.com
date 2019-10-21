@@ -1,0 +1,11 @@
+---
+layout: book
+title: "我们为什么会说脏话"
+date: 2019-10-26 10-55-28 +0800
+cover: https://img1.doubanio.com/view/subject/l/public/s33323529.jpg
+epub_book_url: /static/public/我们为什么会说脏话.epub
+douban_url: https://book.douban.com/subject/33463349/
+categories: book
+---
+
+《我们为什么会说脏话》

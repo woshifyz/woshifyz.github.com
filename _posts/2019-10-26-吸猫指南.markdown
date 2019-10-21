@@ -1,0 +1,10 @@
+---
+layout: book
+title: "吸猫指南"
+date: 2019-10-26 10-26-31 +0800
+cover: https://img3.doubanio.com/view/subject/l/public/s29965070.jpg
+epub_book_url: /static/public/吸猫指南.epub
+categories: book
+---
+
+《吸猫指南》

@@ -1,75 +1,194 @@
 <html>
     <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="/static/css/reset.css" />
+        {% include header.html %}
+        <title>{{ page.title }}</title>
+        <meta name="description" content="{{ page.title }}在线阅读, 下载, 评论">
         <link rel="stylesheet" href="/static/css/APlayer.min.css" />
         <script type="text/javascript" src="/static/js/APlayer.min.js"></script>
     </head>
-    <body>
+    <body class="body">
         <style>
-            .body {
-                font-family: 16px/1.6 "TIBch", "Classic Grotesque W01", "Avenir Next", "Segoe UI", "Helvetica Neue", Arial, "Hiragino Sans GB", "PingFang SC", "Heiti SC", "Noto Sans CJK SC", "Source Han Sans SC", "Microsoft YaHei UI", "Microsoft YaHei", sans-serif;
-                background-color: #f8f8f5;
-            }
             .flex-container {
                 display: flex;
                 flex-direction: row;
                 flex-wrap: nowrap;
                 justify-content: center;
+                margin-bottom: 15px;
             }
-            .main {
+            .mainbook {
                 max-width: 1280px;
+                width: 80%;
                 margin-left: auto;
                 margin-right: auto;
-                margin-top: 64px;
             }
             .poster {
-                width: 50%;
+                width: 400px;
             }
             .poster-img {
                 width: 100%;
             }
             artical {
                 margin-top: 10px;
-                width: 50%; 
                 padding-left: 20px;
+                flex: 1;
             }
             artical > p {
                 text-indent:2em;
                 text-transform: capitalize;
-                font-size: 1.3em;
+                font-size: 1.2em;
                 color: #5c5c5c;
                 -webkit-font-smoothing: antialiased;
                 -moz-osx-font-smoothing: grayscale;
-                line-height: 1.3em;
+                line-height: 1.4em;
+                letter-spacing: 0px;
             }
             #audio_content {
                 margin-top: 20px;
                 margin-right: 10px;
             }
+            #disqus_thread {
+                margin-top: 30px;
+            }
         </style>
-        <div class="flex-container main">
-            <div class="poster">
-                <img class="poster-img" src="{{ page.cover }}"/>
+        {% include banner.html %}
+        <div class="main">
+            <a href="/" class="title"><img class="titleimg" src="/static/img/sulli.png"></a>
+            <div class="mainbook">
+                <div class="flex-container">
+                    <div class="poster">
+                        <img class="poster-img" src="{{ page.cover }}"/>
+                    </div>
+                    <artical>
+                        <p>
+                            {{ content }}
+                        </p>
+                        {% if page.audios %}
+                        <div id="audio_content"></div>
+                        {% endif %}
+                    </artical>
+                </div>
+                {% if page.epub_book_url %}
+                <iframe style="border:none; width: 100%; height:800px;" srcdoc='
+                <html class="no-js">
+                    <head>
+                        <meta charset="utf-8">
+                        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+                        <meta name="viewport" content="width=device-width, user-scalable=no">
+                        <meta name="apple-mobile-web-app-capable" content="yes">
+
+                        <link rel="stylesheet" href="/static/reader/css/all.css">
+
+                        <script src="/static/reader/js/libs/jquery.min.js"></script>
+
+                        <script src="/static/reader/js/libs/zip.min.js"></script>
+
+                        <script>
+                            "use strict";
+
+                            document.onreadystatechange = function () {
+                            if (document.readyState == "complete") {
+                                window.reader = ePubReader("{{ page.epub_book_url }}", {
+                                restore: true
+                                });
+                            }
+                            };
+
+                        </script>
+
+                        <!-- File Storage -->
+                        <!-- <script src="/static/reader/js/libs/localforage.min.js"></script> -->
+
+                        <!-- Render -->
+                        <script src="/static/reader/js/epub.min.js"></script>
+
+                        <!-- Reader -->
+                        <script src="/static/reader/js/reader.min.js"></script>
+
+                    </head>
+                    <body>
+                    <div id="sidebar">
+                        <div id="panels">
+                        <a id="show-Toc" class="show_view icon-list-1 active" data-view="Toc">TOC</a>
+                        </div>
+                        <div id="tocView" class="view">
+                        </div>
+                    </div>
+                    <div id="main">
+                        <div id="titlebar">
+                        <div id="opener">
+                            <a id="slider" class="icon-menu">Menu</a>
+                        </div>
+                        <div id="metainfo">
+                            <span id="book-title"></span>
+                            <span id="title-seperator">&nbsp;&nbsp;–&nbsp;&nbsp;</span>
+                            <span id="chapter-title"></span>
+                        </div>
+                        <div id="title-controls">
+                        </div>
+                        </div>
+
+                        <div id="divider"></div>
+                        <div id="prev" class="arrow">‹</div>
+                        <div id="viewer"></div>
+                        <div id="next" class="arrow">›</div>
+
+                        <div id="loader"><img src="/static/reader/img/loader.gif"><br><span style="display: block; text-align:center; margin: 10px auto;" id="loaderPercent">0%</span></div>
+                    </div>
+                    <div class="modal md-effect-1" id="settings-modal">
+                        <div class="md-content">
+                            <h3>Settings</h3>
+                            <div>
+                                <p>
+                                    <input type="checkbox" id="sidebarReflow" name="sidebarReflow">Reflow text when sidebars are open.
+                                </p>
+                            </div>
+                            <div class="closer icon-cancel-circled"></div>
+                        </div>
+                    </div>
+                    <div class="overlay"></div>
+                    </body>
+                </html>
+                    
+                '></iframe>
+                {% endif %}
+
+                <div id="disqus_thread"></div>
+                <div style="height: 60px;"></div>
             </div>
-            <artical>
-                <p>
-                    {{ content }}
-                </p>
-                <div id="audio_content"></div>
-            </artical>
+            {% if page.audios %}
+            <script>
+                new APlayer({
+                    container: document.getElementById('audio_content'),
+                    audio: [
+                        {% for audio in page.audios %}
+                        {
+                            name: "{{ page.title }} 点评 {{ audio.title }} ",
+                            artist: "WOSHIFYZ",
+                            url: "{{ audio.url }}",
+                            cover: "{{ page.cover }}",
+                        },
+                        {% endfor %}
+                    ]
+                });
+            </script>
+            {% endif %}
+
+            <script>
+                var disqus_config = function () {
+                    this.page.url = "https://woshifyz.github.com";  
+                    this.page.identifier = "{{ page.id }}";
+                };
+                (function() {  
+                    var d = document, s = d.createElement('script');
+                    
+                    s.src = 'https://woshifyz.disqus.com/embed.js';
+                    
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
         </div>
-        <script>
-            const ap = new APlayer({
-                container: document.getElementById('audio_content'),
-                audio: [{
-                    name: "{{ page.title }} 点评",
-                    artist: "Woshifyz",
-                    url: "{{ page.audio }}",
-                    cover: "{{ page.cover }}",
-                }]
-            });
-        </script>
     </body>
 </html>
 

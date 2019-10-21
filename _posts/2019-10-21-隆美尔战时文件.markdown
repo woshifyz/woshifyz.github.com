@@ -2,9 +2,12 @@
 layout: book
 title:  "隆美尔战时文件"
 date:   2019-10-21 17:06:34 +0800
-cover:  "https://img1.doubanio.com/lpic/s28284168.jpg"
-audio:  "/public/laizitiantiangdemogui.mp3"
+cover:  "https://img1.doubanio.com/view/subject/l/public/s28284168.jpg"
+audios: 
+- title: "1"
+  url: "/static/public/laizitiantiangdemogui.mp3"
 categories: book
+epub_book_url: /static/public/longmeierzhanshiwenjian.epub
 ---
 
 李德・哈特（B.H.Liddell Hart），英国军事记者、军事理论家、战略学家。生于法国巴黎。早年就读于英国剑桥大学。第一次世界大战期间服役，任步兵团军官，并曾在战斗中负伤。后来加入英国皇家军事教育协会。一战结束后，先后服务于《英国每日电讯报》（1925-1935）和《英国泰晤士报》（1935-1939），从事军事记者工作。李德•哈特同时也是著名的军事战略家，在军事学上提出了“间接路线”的观念以及涵盖军事以外领域的“大战略”概念，同时他也是现代战争“装甲兵”作战的鼓吹者。李德•哈特与克劳塞维兹同时被誉为西方战略思想史中的两位现代战略大师。主要著作有：《隆美尔战时文件》《大战略——间接路线》《第一次世界大战战史》《第二次世界大战战史》等。1966年被英国皇家授予爵士勋章。
