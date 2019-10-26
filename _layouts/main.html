@@ -7,53 +7,50 @@
     <body>
         <style>
             .home {
-                max-width: 860px;
+                width: 100%;
+                max-width: 1080px;
                 margin-left: auto;
                 margin-right: auto;
                 margin-top: 20px;
                 margin-bottom: 80px;
             }
-            .item {
+            .item-list {
                 width: 100%;
                 display: flex;
                 flex-direction: row;
-                flex-wrap: nowrap;
-                /* justify-content: center; */
+                flex-wrap: wrap;
+                justify-content: space-between;
+            }
+            .item {
+                width: 25%;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                margin-bottom: 40px;
             }
             .poster {
-                display: block;
-                height: 200px;
-                min-width: 160px;
+                /* display: block; */
+                height: 230px;
+                min-width: 150px;
             }
             .poster > img {
-                width: 140px;
+                display: block;
+                width: 150px;
+                margin-left: auto;
+                margin-right: auto;
             }
-            .detail {
-                margin-top: 3px;
-                padding-left: 0px;
-                flex: 1;
-            }
-            .aud {
-                margin-top: 20px;
+            .title {
+                text-align: center;
             }
             p {
-                text-indent:2em;
                 text-transform: capitalize;
                 font-size: 1em;
                 color: #5c5c5c;
                 -webkit-font-smoothing: antialiased;
                 -moz-osx-font-smoothing: grayscale;
-                line-height: 1.35em;
-                margin-top: 0px;
+                margin-top: 10px;
                 margin-bottom: 0px;
-            }
-            .divider {
-                border: 0px;
-                background-color: transparent;
-                height: 0;
-                margin: 10px auto 15px;
-                text-align: center;
-                width: 100%;
+                font-weight: bold;    
             }
         </style>
         {% include banner.html %}
@@ -61,33 +58,16 @@
             <a href="/" class="titlelink"><img class="titleimg" src="/static/img/sulli.png"></a>
             <div class="home">
                 {%- if site.posts.size > 0 -%}
-                    <ul>
+                    <ul class="item-list">
                     {%- for post in site.posts -%}
                         <li class="item">
                             <a href="{{ post.url | relative_url }}" class="poster">
                                 <img src="{{ post.cover }}" />
                             </a>
-                            <div class="detail">
-                                <p>{{ post.content | truncate: 142 }}</p>
-                                {% if post.audios %}
-                                <div class="aud" id="audio_content_{{ post.id }}"></div>
-                                <script>
-                                    new APlayer({
-                                        container: document.getElementById('audio_content_{{ post.id }}'),
-                                        audio: [
-                                            {
-                                                name: "{{ post.title }} 点评 {{ post.audios[0].title }} ",
-                                                artist: "WOSHIFYZ",
-                                                url: "{{ post.audios[0].url }}",
-                                                cover: "{{ post.cover }}",
-                                            },
-                                        ]
-                                    });
-                                </script>
-                                {% endif %}
+                            <div class="title">
+                                <p>《{{ post.title }}》</p>
                             </div>
                         </li>
-                        <hr class="divider" />
                     {%- endfor -%}
                     </ul>
                 {%- endif -%}
