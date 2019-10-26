@@ -1,0 +1,10 @@
+---
+layout: book
+title: "论美国的民主"
+date: 2019-10-26 12-37-57 +0800
+cover: /static/img/cover_ph.jpg
+epub_book_url: /static/public/论美国的民主.epub
+categories: book
+---
+
+《论美国的民主》

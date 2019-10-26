@@ -1,0 +1,10 @@
+---
+layout: book
+title: "时间的悖论"
+date: 2019-10-26 12-48-14 +0800
+cover: /static/img/cover_ph.jpg
+epub_book_url: /static/public/时间的悖论.epub
+categories: book
+---
+
+《时间的悖论》

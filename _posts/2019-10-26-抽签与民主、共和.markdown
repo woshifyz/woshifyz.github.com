@@ -1,0 +1,10 @@
+---
+layout: book
+title: "抽签与民主、共和"
+date: 2019-10-26 12-47-16 +0800
+cover: /static/img/cover_ph.jpg
+epub_book_url: /static/public/抽签与民主、共和.epub
+categories: book
+---
+
+《抽签与民主、共和》

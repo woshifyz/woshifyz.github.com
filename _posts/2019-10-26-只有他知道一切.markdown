@@ -1,0 +1,10 @@
+---
+layout: book
+title: "只有他知道一切"
+date: 2019-10-26 12-43-59 +0800
+cover: /static/img/cover_ph.jpg
+epub_book_url: /static/public/只有他知道一切.epub
+categories: book
+---
+
+《只有他知道一切》

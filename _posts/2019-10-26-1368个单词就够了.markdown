@@ -1,0 +1,10 @@
+---
+layout: book
+title: "1368个单词就够了"
+date: 2019-10-26 12-36-00 +0800
+cover: /static/img/cover_ph.jpg
+epub_book_url: /static/public/1368个单词就够了.epub
+categories: book
+---
+
+《1368个单词就够了》

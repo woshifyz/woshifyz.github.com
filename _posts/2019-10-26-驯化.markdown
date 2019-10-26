@@ -1,0 +1,10 @@
+---
+layout: book
+title: "驯化"
+date: 2019-10-26 12-53-08 +0800
+cover: /static/img/cover_ph.jpg
+epub_book_url: /static/public/驯化.epub
+categories: book
+---
+
+《驯化》

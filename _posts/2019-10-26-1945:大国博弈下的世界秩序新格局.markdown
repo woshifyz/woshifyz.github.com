@@ -1,0 +1,10 @@
+---
+layout: book
+title: "1945:大国博弈下的世界秩序新格局"
+date: 2019-10-26 12-36-36 +0800
+cover: /static/img/cover_ph.jpg
+epub_book_url: /static/public/1945:大国博弈下的世界秩序新格局.epub
+categories: book
+---
+
+《1945:大国博弈下的世界秩序新格局》

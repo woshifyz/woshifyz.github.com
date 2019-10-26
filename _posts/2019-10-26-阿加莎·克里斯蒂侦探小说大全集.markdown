@@ -1,0 +1,10 @@
+---
+layout: book
+title: "阿加莎·克里斯蒂侦探小说大全集"
+date: 2019-10-26 12-52-55 +0800
+cover: /static/img/cover_ph.jpg
+epub_book_url: /static/public/阿加莎·克里斯蒂侦探小说大全集.epub
+categories: book
+---
+
+《阿加莎·克里斯蒂侦探小说大全集》

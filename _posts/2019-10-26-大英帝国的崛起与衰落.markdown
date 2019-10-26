@@ -1,0 +1,10 @@
+---
+layout: book
+title: "大英帝国的崛起与衰落"
+date: 2019-10-26 12-45-22 +0800
+cover: /static/img/cover_ph.jpg
+epub_book_url: /static/public/大英帝国的崛起与衰落.epub
+categories: book
+---
+
+《大英帝国的崛起与衰落》

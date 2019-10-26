@@ -1,0 +1,10 @@
+---
+layout: book
+title: "了不起的盖茨比"
+date: 2019-10-26 12-40-38 +0800
+cover: /static/img/cover_ph.jpg
+epub_book_url: /static/public/了不起的盖茨比.epub
+categories: book
+---
+
+《了不起的盖茨比》

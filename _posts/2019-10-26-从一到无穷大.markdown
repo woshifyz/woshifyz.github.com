@@ -1,0 +1,10 @@
+---
+layout: book
+title: "从一到无穷大"
+date: 2019-10-26 12-41-37 +0800
+cover: /static/img/cover_ph.jpg
+epub_book_url: /static/public/从一到无穷大.epub
+categories: book
+---
+
+《从一到无穷大》

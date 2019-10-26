@@ -1,0 +1,10 @@
+---
+layout: book
+title: "圣母病"
+date: 2019-10-26 12-44-27 +0800
+cover: /static/img/cover_ph.jpg
+epub_book_url: /static/public/圣母病.epub
+categories: book
+---
+
+《圣母病》

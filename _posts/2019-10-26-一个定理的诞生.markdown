@@ -1,0 +1,10 @@
+---
+layout: book
+title: "一个定理的诞生"
+date: 2019-10-26 12-39-45 +0800
+cover: /static/img/cover_ph.jpg
+epub_book_url: /static/public/一个定理的诞生.epub
+categories: book
+---
+
+《一个定理的诞生》

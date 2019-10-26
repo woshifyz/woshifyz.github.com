@@ -1,0 +1,10 @@
+---
+layout: book
+title: "伪装成独白的爱情"
+date: 2019-10-26 12-42-07 +0800
+cover: /static/img/cover_ph.jpg
+epub_book_url: /static/public/伪装成独白的爱情.epub
+categories: book
+---
+
+《伪装成独白的爱情》

@@ -1,0 +1,10 @@
+---
+layout: book
+title: "别相信任何人"
+date: 2019-10-26 12-42-48 +0800
+cover: /static/img/cover_ph.jpg
+epub_book_url: /static/public/别相信任何人.epub
+categories: book
+---
+
+《别相信任何人》

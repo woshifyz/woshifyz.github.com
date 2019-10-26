@@ -1,0 +1,10 @@
+---
+layout: book
+title: "以色列的诞生"
+date: 2019-10-26 12-41-56 +0800
+cover: /static/img/cover_ph.jpg
+epub_book_url: /static/public/以色列的诞生.epub
+categories: book
+---
+
+《以色列的诞生》

@@ -1,0 +1,10 @@
+---
+layout: book
+title: "全民选举"
+date: 2019-10-26 12-42-34 +0800
+cover: /static/img/cover_ph.jpg
+epub_book_url: /static/public/全民选举.epub
+categories: book
+---
+
+《全民选举》

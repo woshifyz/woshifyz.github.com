@@ -1,0 +1,10 @@
+---
+layout: book
+title: "德国人的战争"
+date: 2019-10-26 12-46-15 +0800
+cover: /static/img/cover_ph.jpg
+epub_book_url: /static/public/德国人的战争.epub
+categories: book
+---
+
+《德国人的战争》

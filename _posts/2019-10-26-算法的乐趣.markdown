@@ -1,0 +1,10 @@
+---
+layout: book
+title: "算法的乐趣"
+date: 2019-10-26 12-50-09 +0800
+cover: /static/img/cover_ph.jpg
+epub_book_url: /static/public/算法的乐趣.epub
+categories: book
+---
+
+《算法的乐趣》

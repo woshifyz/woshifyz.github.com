@@ -1,0 +1,10 @@
+---
+layout: book
+title: "生命的未来：从双螺旋到合成生命"
+date: 2019-10-26 12-49-45 +0800
+cover: /static/img/cover_ph.jpg
+epub_book_url: /static/public/生命的未来：从双螺旋到合成生命.epub
+categories: book
+---
+
+《生命的未来：从双螺旋到合成生命》

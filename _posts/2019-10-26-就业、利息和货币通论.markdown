@@ -1,0 +1,10 @@
+---
+layout: book
+title: "就业、利息和货币通论"
+date: 2019-10-26 12-45-50 +0800
+cover: /static/img/cover_ph.jpg
+epub_book_url: /static/public/就业、利息和货币通论.epub
+categories: book
+---
+
+《就业、利息和货币通论》

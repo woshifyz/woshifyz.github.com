@@ -1,0 +1,10 @@
+---
+layout: book
+title: "Python核心编程第3版"
+date: 2019-10-26 12-38-51 +0800
+cover: /static/img/cover_ph.jpg
+epub_book_url: /static/public/Python核心编程第3版.epub
+categories: book
+---
+
+《Python核心编程第3版》

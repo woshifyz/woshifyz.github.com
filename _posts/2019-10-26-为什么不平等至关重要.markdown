@@ -1,0 +1,10 @@
+---
+layout: book
+title: "为什么不平等至关重要"
+date: 2019-10-26 12-40-02 +0800
+cover: /static/img/cover_ph.jpg
+epub_book_url: /static/public/为什么不平等至关重要.epub
+categories: book
+---
+
+《为什么不平等至关重要》
