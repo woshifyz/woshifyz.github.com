@@ -2,8 +2,9 @@
 layout: book
 title: "为什么不平等至关重要"
 date: 2019-10-26 12-40-02 +0800
-cover: /static/img/cover_ph.jpg
+cover: https://img1.doubanio.com/view/subject/l/public/s33312537.jpg
 epub_book_url: /static/public/为什么不平等至关重要.epub
+douban_url: https://book.douban.com/subject/33408162/
 categories: book
 ---
 

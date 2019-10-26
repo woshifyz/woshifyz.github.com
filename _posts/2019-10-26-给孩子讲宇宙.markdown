@@ -2,8 +2,9 @@
 layout: book
 title: "给孩子讲宇宙"
 date: 2019-10-26 12-50-21 +0800
-cover: /static/img/cover_ph.jpg
+cover: https://img9.doubanio.com/view/subject/l/public/s29508666.jpg
 epub_book_url: /static/public/给孩子讲宇宙.epub
+douban_url: https://book.douban.com/subject/27104038/
 categories: book
 ---
 

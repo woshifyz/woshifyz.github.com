@@ -2,8 +2,9 @@
 layout: book
 title: "迦太基必须毁灭"
 date: 2019-10-26 12-51-55 +0800
-cover: /static/img/cover_ph.jpg
+cover: https://img3.doubanio.com/view/subject/l/public/s28948212.jpg
 epub_book_url: /static/public/迦太基必须毁灭.epub
+douban_url: https://book.douban.com/subject/26764853/
 categories: book
 ---
 

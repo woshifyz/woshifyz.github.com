@@ -2,8 +2,9 @@
 layout: book
 title: "德国人的战争"
 date: 2019-10-26 12-46-15 +0800
-cover: /static/img/cover_ph.jpg
+cover: https://img9.doubanio.com/view/subject/l/public/s29688866.jpg
 epub_book_url: /static/public/德国人的战争.epub
+douban_url: https://book.douban.com/subject/27060615/
 categories: book
 ---
 

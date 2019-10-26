@@ -2,8 +2,9 @@
 layout: book
 title: "就业、利息和货币通论"
 date: 2019-10-26 12-45-50 +0800
-cover: /static/img/cover_ph.jpg
+cover: https://img1.doubanio.com/view/subject/l/public/s1559009.jpg
 epub_book_url: /static/public/就业、利息和货币通论.epub
+douban_url: https://book.douban.com/subject/1137246/
 categories: book
 ---
 

@@ -2,8 +2,9 @@
 layout: book
 title: "阿加莎·克里斯蒂侦探小说大全集"
 date: 2019-10-26 12-52-55 +0800
-cover: /static/img/cover_ph.jpg
+cover: https://img3.doubanio.com/view/subject/l/public/s26849345.jpg
 epub_book_url: /static/public/阿加莎·克里斯蒂侦探小说大全集.epub
+douban_url: https://book.douban.com/subject/24859822/
 categories: book
 ---
 

@@ -2,8 +2,9 @@
 layout: book
 title: "我的一生略小于美国现代史"
 date: 2019-10-26 12-46-48 +0800
-cover: /static/img/cover_ph.jpg
+cover: https://img3.doubanio.com/view/subject/l/public/s29727564.jpg
 epub_book_url: /static/public/我的一生略小于美国现代史.epub
+douban_url: https://book.douban.com/subject/27599200/
 categories: book
 ---
 

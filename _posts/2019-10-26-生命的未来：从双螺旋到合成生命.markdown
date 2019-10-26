@@ -2,8 +2,9 @@
 layout: book
 title: "生命的未来：从双螺旋到合成生命"
 date: 2019-10-26 12-49-45 +0800
-cover: /static/img/cover_ph.jpg
+cover: https://img3.doubanio.com/view/subject/l/public/s28872472.jpg
 epub_book_url: /static/public/生命的未来：从双螺旋到合成生命.epub
+douban_url: https://book.douban.com/subject/26831320/
 categories: book
 ---
 

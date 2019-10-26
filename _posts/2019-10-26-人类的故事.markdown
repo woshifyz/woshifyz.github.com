@@ -2,8 +2,9 @@
 layout: book
 title: "人类的故事"
 date: 2019-10-26 12-41-12 +0800
-cover: /static/img/cover_ph.jpg
+cover: https://img9.doubanio.com/view/subject/l/public/s1255286.jpg
 epub_book_url: /static/public/人类的故事.epub
+douban_url: https://book.douban.com/subject/1063736/
 categories: book
 ---
 

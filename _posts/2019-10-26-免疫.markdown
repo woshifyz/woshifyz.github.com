@@ -2,8 +2,9 @@
 layout: book
 title: "免疫"
 date: 2019-10-26 12-42-22 +0800
-cover: /static/img/cover_ph.jpg
+cover: https://img1.doubanio.com/view/subject/l/public/s28919877.jpg
 epub_book_url: /static/public/免疫.epub
+douban_url: https://book.douban.com/subject/26842454/
 categories: book
 ---
 

@@ -2,8 +2,9 @@
 layout: book
 title: "德皇威廉二世回忆录"
 date: 2019-10-26 12-46-26 +0800
-cover: /static/img/cover_ph.jpg
+cover: https://img3.doubanio.com/view/subject/l/public/s30023001.jpg
 epub_book_url: /static/public/德皇威廉二世回忆录.epub
+douban_url: https://book.douban.com/subject/30351722/
 categories: book
 ---
 

@@ -2,8 +2,9 @@
 layout: book
 title: "熬：极地求生700天"
 date: 2019-10-26 12-49-34 +0800
-cover: /static/img/cover_ph.jpg
+cover: https://img9.doubanio.com/view/subject/l/public/s30010626.jpg
 epub_book_url: /static/public/熬：极地求生700天.epub
+douban_url: https://book.douban.com/subject/26997238/
 categories: book
 ---
 

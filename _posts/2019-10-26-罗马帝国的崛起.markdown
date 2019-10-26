@@ -2,8 +2,9 @@
 layout: book
 title: "罗马帝国的崛起"
 date: 2019-10-26 12-50-49 +0800
-cover: /static/img/cover_ph.jpg
+cover: https://img3.doubanio.com/view/subject/l/public/s24515684.jpg
 epub_book_url: /static/public/罗马帝国的崛起.epub
+douban_url: https://book.douban.com/subject/20452305/
 categories: book
 ---
 

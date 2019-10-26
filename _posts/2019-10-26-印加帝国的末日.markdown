@@ -2,8 +2,9 @@
 layout: book
 title: "印加帝国的末日"
 date: 2019-10-26 12-43-19 +0800
-cover: /static/img/cover_ph.jpg
+cover: https://img3.doubanio.com/view/subject/l/public/s29577763.jpg
 epub_book_url: /static/public/印加帝国的末日.epub
+douban_url: https://book.douban.com/subject/26997145/
 categories: book
 ---
 

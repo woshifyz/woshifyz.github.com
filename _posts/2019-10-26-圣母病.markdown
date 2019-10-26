@@ -2,8 +2,9 @@
 layout: book
 title: "圣母病"
 date: 2019-10-26 12-44-27 +0800
-cover: /static/img/cover_ph.jpg
+cover: https://img3.doubanio.com/view/subject/l/public/s32303731.jpg
 epub_book_url: /static/public/圣母病.epub
+douban_url: https://book.douban.com/subject/30583300/
 categories: book
 ---
 

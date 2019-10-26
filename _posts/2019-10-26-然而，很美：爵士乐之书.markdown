@@ -2,8 +2,9 @@
 layout: book
 title: "然而，很美：爵士乐之书"
 date: 2019-10-26 12-49-23 +0800
-cover: /static/img/cover_ph.jpg
+cover: https://img9.doubanio.com/view/subject/l/public/s27018246.jpg
 epub_book_url: /static/public/然而，很美：爵士乐之书.epub
+douban_url: https://book.douban.com/subject/24871971/
 categories: book
 ---
 

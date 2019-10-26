@@ -2,8 +2,9 @@
 layout: book
 title: "全民选举"
 date: 2019-10-26 12-42-34 +0800
-cover: /static/img/cover_ph.jpg
+cover: https://img1.doubanio.com/view/subject/l/public/s27708617.jpg
 epub_book_url: /static/public/全民选举.epub
+douban_url: https://book.douban.com/subject/25987033/
 categories: book
 ---
 

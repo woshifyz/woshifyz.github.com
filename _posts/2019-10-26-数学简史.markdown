@@ -2,8 +2,9 @@
 layout: book
 title: "数学简史"
 date: 2019-10-26 12-48-04 +0800
-cover: /static/img/cover_ph.jpg
+cover: https://img1.doubanio.com/view/subject/l/public/s32260819.jpg
 epub_book_url: /static/public/数学简史.epub
+douban_url: https://book.douban.com/subject/30296440/
 categories: book
 ---
 

@@ -2,8 +2,9 @@
 layout: book
 title: "百年颠沛与千年往复"
 date: 2019-10-26 12-49-58 +0800
-cover: /static/img/cover_ph.jpg
+cover: https://img1.doubanio.com/view/subject/l/public/s29726857.jpg
 epub_book_url: /static/public/百年颠沛与千年往复.epub
+douban_url: https://book.douban.com/subject/30142929/
 categories: book
 ---
 
