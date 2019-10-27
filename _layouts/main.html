@@ -6,38 +6,20 @@
     </head>
     <body>
         <style>
-            .home {
-                width: 100%;
-                max-width: 1080px;
-                margin-left: auto;
-                margin-right: auto;
-                margin-top: 20px;
-                margin-bottom: 80px;
-            }
-            .item-list {
-                width: 100%;
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                justify-content: space-between;
-            }
             .item {
                 width: 25%;
                 display: flex;
                 flex-direction: column;
                 flex-wrap: wrap;
-                margin-bottom: 40px;
+                margin-bottom: 50px;
             }
             .poster {
-                /* display: block; */
                 height: 230px;
                 min-width: 150px;
             }
             .poster > img {
                 display: block;
                 width: 150px;
-                margin-left: auto;
-                margin-right: auto;
             }
             .title {
                 text-align: center;
@@ -54,14 +36,14 @@
             }
         </style>
         {% include banner.html %}
-        <div class="main">
-            <a href="/" class="titlelink"><img class="titleimg" src="/static/img/sulli.png"></a>
+        <div class="container mx-auto">
+            <a class="block" style="margin-top: 40px; margin-bottom: 40px;" href="/" ><img class="block mx-auto" src="/static/img/sulli.png"></a>
             <div class="home">
                 {%- if site.posts.size > 0 -%}
-                    <ul class="item-list">
+                    <ul class="flex flex-row flex-wrap justify-center">
                     {%- for post in site.posts -%}
                         <li class="item">
-                            <a href="{{ post.url | relative_url }}" class="poster">
+                            <a href="{{ post.url | relative_url }}" class="poster mx-auto">
                                 <img src="{{ post.cover }}" />
                             </a>
                             <div class="title">
@@ -74,6 +56,5 @@
                 
             </div>
         </div>
-        {% include footer.html %}
     </body>
 </html>
