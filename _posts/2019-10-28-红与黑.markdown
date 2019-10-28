@@ -1,0 +1,10 @@
+---
+layout: book
+title:  "红与黑"
+date:   2019-10-28 09:56:34 +0800
+cover:  https://img1.doubanio.com/view/subject/l/public/s2332189.jpg
+categories: book
+epub_book_url: /static/public/红与黑.epub
+---
+
+《红与黑》
